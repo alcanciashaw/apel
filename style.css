@@ -1,0 +1,66 @@
+/* === ANIMATE THE SVGs === */
+
+/*.path {
+  stroke-dasharray: 100;
+  animation: dash 5s linear infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 1000;
+  }
+}*/
+
+
+.name {
+  margin-top: 30%;
+  margin: 0 auto;
+}
+
+.st0 {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 3s ease-in-out forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+
+/* === TEXT STUFF === */
+body {
+	text-align:center;
+  font-family: 'Noto Sans', sans-serif;
+	font-size:16px;
+  color: #061a2b;
+  background-color: #ffcbad;
+}
+
+p {
+	text-align:justify;
+	max-width:50%;
+	margin:0 auto 20px;
+	line-height:20px;
+}
+
+
+/* footer style */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 20px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    background-color: #fff;
+}
