@@ -7,5 +7,7 @@ download folder
 open terminal
 
 > cd downloads
+
 > cd apel
+
 > npm start
